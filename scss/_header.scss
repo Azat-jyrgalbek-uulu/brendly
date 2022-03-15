@@ -1,0 +1,21 @@
+@import '_vars';
+.header{
+    &__navbar{
+        display: flex;
+        justify-content:space-between;
+        height: 90px;
+        align-items: center;
+        .navbar__btn{
+            display: none;
+        }
+        .navbar__menu{
+            &-link{
+                color: $col1;
+                padding-left: 53px;
+                text-transform: capitalize;
+                text-decoration: none;
+                font-family: $font1;
+            }
+        }
+    }
+}
