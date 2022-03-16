@@ -1,0 +1,70 @@
+@import "_vars";
+@import "_globalsettings";
+@import "_overlay";
+@import "_container2";
+
+.main{
+    &__banner{
+        max-width: 1440px;
+        min-height: 544px;
+        background-image: url(/img/img1.jpg);
+        background-position: center;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        &-title{
+            align-self:center;
+            justify-self: center;
+            // border: 1px solid white;
+            font-family: $font1;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 30px;
+            letter-spacing: 0.5em;
+            letter-spacing: 0.5em;
+            text-transform: uppercase;
+            color:$col2;
+            margin-top: 120px;
+        }
+
+        &-announce{
+            align-self:center;
+            justify-self: center;
+            // border: 1px solid white;
+            font-family: $font2;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 55px;
+            line-height: 60px;
+            color: $col2;
+        }
+        &-btn{
+            align-self:center;
+            justify-self: center;
+            border: 2px solid $col2;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $col2;
+            padding: 21px 56px;
+            font-style: normal;
+            font-size: 18px;
+            font-weight: 900;
+            line-height: 18px;
+            font-family: $font2;
+            margin-bottom: 89px;
+            }
+            &-info{
+                align-self:center;
+                justify-self: center;
+                // border: 1px solid white;
+                font-family: $font1;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 30px;
+                line-height: 30px;
+                color: $col2;
+            }
+
+    }
+}

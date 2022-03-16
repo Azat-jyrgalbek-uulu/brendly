@@ -34,3 +34,209 @@
   max-width: 1140px;
   margin: 0 auto;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.overlay::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(34, 37, 51, 0.4);
+  z-index: -1;
+}
+
+.container2 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main__banner {
+  max-width: 1440px;
+  min-height: 544px;
+  background-image: url(/img/img1.jpg);
+  background-position: center;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__banner-title {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0.5em;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 120px;
+}
+
+.main__banner-announce {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  font-family: "Lato", Verdana;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 60px;
+  color: white;
+}
+
+.main__banner-btn {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  border: 2px solid white;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 21px 56px;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 18px;
+  font-family: "Lato", Verdana;
+  margin-bottom: 89px;
+}
+
+.main__banner-info {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 30px;
+  color: white;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.overlay::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(34, 37, 51, 0.4);
+  z-index: -1;
+}
+
+.container2 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.overlay::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(34, 37, 51, 0.4);
+  z-index: -1;
+}
+
+.main__categories-title {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: capitalize;
+  margin-top: 85px;
+  margin-bottom: 91px;
+  text-align: center;
+}
+
+.main__categories-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__categories-links .item {
+  display: inline-block;
+  width: 350px;
+  height: 419px;
+  text-align: center;
+  padding-top: 209px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+}
+
+.main__categories-links .men {
+  background-image: url(/img/img2.jpg);
+}
+
+.main__categories-links .women {
+  background-image: url(/img/img3.jpg);
+}
+
+.main__categories-links .accessories {
+  background-image: url(/img/img4.jpg);
+}
