@@ -1,0 +1,21 @@
+@import "_globalsettings";
+@import "_vars";
+@import "_container2";
+@import "_overlay";
+
+.main__footer{
+    margin-top: 86px;
+    background-image: url(../img/img6.jpg);
+    height: 157px;
+    &-copyright{
+        font-family: $font1;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: capitalize;
+        color: $col2;
+        padding: 65px 0;
+        padding-left: 10px;
+    }
+}
