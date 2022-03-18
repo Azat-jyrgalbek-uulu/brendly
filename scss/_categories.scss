@@ -18,6 +18,7 @@
     &-links{
         display: flex;
         justify-content: space-between;
+        // color: $col2;
 
         .item{
             display: inline-block;
@@ -31,17 +32,18 @@
             font-size: 40px;
             line-height: 40px;
             text-transform: capitalize;
-            color:$col2;
+            color: $col2;
             text-decoration: none;
+
         }
         .men{
-            background-image: url(/img/img2.jpg);
+            background-image: url(../img/img2.jpg);
         }
         .women{
-            background-image: url(/img/img3.jpg);
+            background-image: url(../img/img3.jpg);
         }
         .accessories{
-            background-image: url(/img/img4.jpg);
+            background-image: url(../img/img4.jpg);
         }
     }
 }
