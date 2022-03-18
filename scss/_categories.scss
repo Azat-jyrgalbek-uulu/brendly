@@ -1,0 +1,47 @@
+@import "_vars";
+@import "_globalsettings";
+@import "_container";
+@import "_overlay";
+
+.main__categories{
+    &-title{
+        font-family: $font1;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 40px;
+        text-transform: capitalize;
+        margin-top: 85px;
+        margin-bottom: 91px;
+        text-align: center;
+    }
+    &-links{
+        display: flex;
+        justify-content: space-between;
+
+        .item{
+            display: inline-block;
+            width: 350px;
+            height: 419px;
+            text-align: center;
+            padding-top: 209px;
+            font-family: $font1;
+            font-style: italic;
+            font-weight: 300;
+            font-size: 40px;
+            line-height: 40px;
+            text-transform: capitalize;
+            color:$col2;
+            text-decoration: none;
+        }
+        .men{
+            background-image: url(/img/img2.jpg);
+        }
+        .women{
+            background-image: url(/img/img3.jpg);
+        }
+        .accessories{
+            background-image: url(/img/img4.jpg);
+        }
+    }
+}
