@@ -66,7 +66,7 @@
 .main__banner {
   max-width: 1440px;
   min-height: 544px;
-  background-image: url(/img/img1.jpg);
+  background-image: url(../img/img1.jpg);
   background-position: center;
   display: -ms-grid;
   display: grid;
@@ -127,6 +127,21 @@
   line-height: 18px;
   font-family: "Lato", Verdana;
   margin-bottom: 89px;
+}
+
+.main__banner-btn:hover {
+  color: red;
+  text-shadow: 0 0 40px red;
+  border: 2px solid red;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.main__banner-btn:active {
+  font-size: 5px;
+  -webkit-transition: 2s;
+  transition: 2s;
+  padding: 21px 56px;
 }
 
 .main__banner-info {
@@ -230,15 +245,15 @@
 }
 
 .main__categories-links .men {
-  background-image: url(/img/img2.jpg);
+  background-image: url(../img/img2.jpg);
 }
 
 .main__categories-links .women {
-  background-image: url(/img/img3.jpg);
+  background-image: url(../img/img3.jpg);
 }
 
 .main__categories-links .accessories {
-  background-image: url(/img/img4.jpg);
+  background-image: url(../img/img4.jpg);
 }
 
 * {
